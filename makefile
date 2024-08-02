@@ -10,8 +10,10 @@ delete:
 	docker rm hackmac-quick-start-hack-dev-1
 install:
 	docker exec hackmac-quick-start-hack-dev-1 composer install
+update:
+	docker exec hackmac-quick-start-hack-dev-1 composer update
 lint:
-	docker exec hackmac-quick-start-hack-dev-1 vendor/bin/hhast-lint
+	docker exec -it hackmac-quick-start-hack-dev-1 vendor/bin/hhast-lint
 test:
 	docker exec hackmac-quick-start-hack-dev-1 vendor/bin/hacktest tests/
 shell:

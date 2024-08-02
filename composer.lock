@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3093c04695f0ed348d24df77fb93405",
+    "content-hash": "6cbfc93034c7b409c1c86aea44130e68",
     "packages": [
         {
             "name": "facebook/hh-clilib",
